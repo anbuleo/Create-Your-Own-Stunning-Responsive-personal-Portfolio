@@ -1,0 +1,154 @@
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+a{
+    text-decoration: none !important;
+    font-size: larger;
+    font-weight: 700;
+    color: blanchedalmond !important;
+    
+}
+li{
+    list-style: none;
+}
+
+.navbar{
+    background-color: black !important;
+}
+
+
+nav{
+    background-color: black !important;
+    padding-right: 2em !important;
+    display: flex !important;
+    column-gap: 80px;
+
+    justify-content: flex-end !important;
+}
+.image{
+   width: 20vw;
+}
+
+.name{
+    
+    color: #fff;
+    font-family: Georgia, 'Times New Roman', Times, serif !important;
+    padding-right: 18em ;
+    padding-top: 2em;
+}
+.banner_content{
+    color: #fff;
+    
+}
+.banner{
+    background-color: black !important;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2em 2em;
+}
+.skills_icons{
+    display: flex;
+    justify-content: center;
+    column-gap: 40px;
+    padding-top: 2em;
+}
+#skills{
+    margin: 2em 2em;
+    height: 50vh;
+    color: antiquewhite;
+    box-sizing: border-box;
+    border: 1px solid;
+    border-radius: 1em;
+    box-shadow: black;
+    background: linear-gradient(#ADD8E6,#000200);
+    text-align: center;
+    padding-top: 2em;
+    font-weight: 700;
+}
+#Projects{
+    margin-top: 2em;
+  
+}
+.card-footer{
+    background-color: black !important;
+}
+.project-card{
+    padding: 2em 2em;
+    display: flex;
+    column-gap: 10px;
+    
+}
+.pro{
+    padding-top: 1em;
+    text-align: center;
+    
+}
+.cards_a_tag{
+    padding-left: 5em;
+   
+}
+#About_Me_section{
+    margin: 2em;
+    background: linear-gradient(#ADD8E6,#000200);
+    border: 0.5px solid;
+    border-radius: 1em;
+    padding: 2em;
+    color: antiquewhite;
+}
+#download{
+    background-color: black;
+    color: antiquewhite;
+}
+#Contact{
+    margin: 2em;
+    background: linear-gradient(#ADD8E6,#000200);
+    border: 0.5px solid;
+    border-radius: 1em;
+    padding: 2em;
+    color: antiquewhite;
+}
+input{
+    border-radius: 0.5em;
+    text-align: center;
+}
+#contact_btn{
+    width: 10vw;
+    border-radius: 0.5em;
+    margin-left: 15em;
+    background-color:black;
+    color: antiquewhite;
+   
+}
+
+nav{
+   width: 100%;
+    position: fixed !important;
+
+}
+
+.footer_portfolio{
+    padding: 2em 0;
+    text-align: center;
+    color: antiquewhite;
+    background: black !important;
+    
+}
+#themeshift{
+    /* height: 50vh;
+    width: 100%; */
+    display: flex;
+    flex-direction: column;
+    
+}
+#theme{
+    position: fixed;
+  
+    align-self: flex-end;
+     align-content: end;  
+   padding: 1em;
+   border: 2px solid;
+   border-radius: 4em;
+}

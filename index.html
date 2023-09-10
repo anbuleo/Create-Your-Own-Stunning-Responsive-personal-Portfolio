@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <title>Portfolio</title>
+    <link id="themeStylesheet" rel="stylesheet" href="./dark.css">
+    
+</head>
+<body>
+    <header>
+        <nav class="navbar bg-primary" >
+            <li><a class="name">Anbu liyon</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#Projects">Projects</a></li>
+            <li><a href="#About_Me_section">About</a></li>
+            <li><a href="#Contact">Contact</a></li>
+        </nav>
+
+    </header>
+    <section class="bg-primary" id="banner">
+        <div class="banner">
+            <div class="banner_content"><h4>Learning "<strong>MERN</strong> Stack" at <strong>Guvi</strong></h4></div>
+           <div><img src="img_png/—Pngtree—children s software programming_5401259.png"  class="image" alt="the png of webdeveloperskill"></div>
+        </div>
+    </section>
+    <div id="themeshift">
+        <button id="theme" onclick="toggleTheme" > <i  class="fa-solid fa-moon fa-fade fa-2xl "  style="color: #000000;"></i></button>
+
+    </div>
+    <section id="skills">
+        <hr class="hr">
+        <h4> Skills</h4>
+        <div class="skills_icons">
+            <p><i class="fa-brands fa-html5 fa-fade fa-2xl" style="color: #ff7e05;"></i></p>
+            <p><i class="fa-brands fa-css3-alt fa-fade fa-2xl" style="color: #5392fd;"></i></p>
+            <p><i class="fa-brands fa-js fa-fade fa-2xl" style="color: yellow;"></i></p>
+            <p><i class="fa-brands fa-github fa-fade fa-2xl"></i></p>
+            <p><i class="fa-brands fa-bootstrap fa-fade fa-2xl" style="color: #7d11c8;"></i></p>
+        </div>
+        <hr>
+
+        
+    </section>
+    <section id="Projects">
+        <h2 class="pro">Project</h2>
+        <div class="project-card">
+            <div class="card" style="width: 18rem;">
+                <img src="img_png/pro1fig.PNG" class="card-img-top" alt="project-1-jpg">
+                <div class="card-body">
+                    <h5 class="card-title">Travel landing page</h5>                  
+                </div>
+                <div class="card-footer bg-primary border-success">
+                    <a href="https://projecttravellanding.netlify.app/" target="_blank" class="cards_a_tag">visit</a>
+                    </div>
+              </div>
+              <div class="card" style="width: 18rem;">
+                <img src="img_png/foodlandingpage.PNG" class="card-img-top" alt="foodlandingpageproject2">
+                <div class="card-body">
+                    <h5 class="card-title">Food landing page</h5>                  
+                </div>
+                <div class="card-footer bg-primary border-success">
+                    <a href="https://foodlandingpageproject2.netlify.app/" target="_blank" class="cards_a_tag">visit</a>
+                    </div>
+              </div> 
+              <div class="card" style="width: 18rem;">
+                <img src="img_png/agecalculator.PNG" class="card-img-top" alt="agecalculator">
+                <div class="card-body">
+                    <h5 class="card-title">Age calculator</h5>                  
+                </div>
+                <div class="card-footer bg-primary border-success">
+                    <a href="https://agecalculatorsession.netlify.app/" target="_blank" class="cards_a_tag">visit</a>
+                    </div>
+              </div> 
+              <div class="card" style="width: 18rem;">
+                <img src="img_png/pro4.PNG" class="card-img-top" alt="pro-jpg">
+                <div class="card-body">
+                    <h5 class="card-title">Travel landing page</h5>                  
+                </div>
+                <div class="card-footer bg-primary border-success">
+                    <a href="https://fectingdatafromapi.netlify.app/" class="cards_a_tag" target="_blank">visit</a>
+                    </div>
+              </div>               
+        </div>
+    </section>
+    <article id="About_Me_section">
+        <div class="about">
+                <h2>Education And Training </h2>
+                    <ul><strong>BBA</strong></ul>
+                    <p>At RVS College of Arts and Science</p>
+                    <ul><strong>MERN stack</strong></ul>
+                    <p>At guvi</p>
+                <h2>About me</h2>
+                <p class="content_aboutme"> Responsible and motivated student ready to apply education in the workplace. Offers excellent technical abilities with software and applications, ability to handle challenging work, and excellent time management skills. Recent graduate with excellent research, technical and problem-solving skills. Detail-oriented and able to learn new concepts quickly</p>
+        </div>
+        <div class="download-btn">
+            <p><strong>Resume :</strong> <button class="btn"  id="download" >download pdf</button>
+                
+            </div>
+    </article>
+    <section id="Contact">
+        <h2><strong>contact</strong></h2>
+        <form class="contact_us">
+            <div class="mb-3">
+            <label class="form-label" for="Name">Name</label>
+            <input type="text" id="name" required placeholder="Enter your name">
+            </div>
+            <div class="mb-3">
+            <label class="form-label" for="email">Email</label>
+            <input type="email" id="email" required >
+            </div>
+            <div class="mb-3">
+                <label class="form-label" for="message">Message</label>
+                <textarea  id="message"  rows="3"></textarea>
+                </div>
+            <button onclick="foo()" id="contact_btn"><strong>Submit</strong></button>
+        </form>
+    </section>
+    <footer>
+        <div class="footer_portfolio bg-primary">
+            <hr>
+            <p>This is a copyright &lt; &lt; &copy; &gt; &gt;</p>
+            
+            <hr>
+        </div>
+       
+    </footer>
+
+
+    <script src="./script.js"></script>
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+</script>
+<script type="text/javascript">
+   (function(){
+      emailjs.init("ljkN3CSWb-fiuV3DZ");
+   })();
+</script>
+    <script src="https://kit.fontawesome.com/0898bccf71.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+</body>
+</html>
