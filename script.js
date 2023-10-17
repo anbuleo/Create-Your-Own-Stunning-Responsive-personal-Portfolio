@@ -3,7 +3,7 @@
 let button = document.getElementById("download")
 button.addEventListener("click",()=>{
     let a = document.createElement("a");
-    a.href="img_png/Capture.pdf";
+    a.href="img_png/ANBULIYON.cv (1).pdf";
     a.download="anbuliyon resume"
     a.click()
 })

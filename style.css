@@ -63,14 +63,19 @@ nav{
 }
 #Projects{
     margin-top: 2em;
+   
   
 }
 .project-card{
     padding: 2em 2em;
     display: flex;
-    column-gap: 10px;
+    column-gap: 20px;
+    row-gap: 40px;
+    flex-wrap: wrap;
+    justify-content: center;
     
 }
+
 .pro{
     padding-top: 1em;
     text-align: center;
@@ -139,3 +144,4 @@ nav{
    border: 2px solid;
    border-radius: 4em;
 }
+
